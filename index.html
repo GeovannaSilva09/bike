@@ -22,52 +22,68 @@
         <a class="text-red-500 italic font-semibold text-[1rem]" href="#">REAL AJ</a>
         <!-- Navegação -->
         <nav class="flex items-center justify-end">
-            <a class="text-black mr-10 text-[1rem]" href="#">Bikes</a>
+            <a class="text-neutral-600 mr-10 text-[1rem]" href="#">Bikes</a>
             <div class="flex items-center text-white pl-14 pr-16 py-6 clip-path-header gap-10 max-lg:pr-3">
                 <a href="#">About Us</a>
                 <a href="#">Service & Support</a>
             </div>
         </nav>
     </header>
+    
 
+    <main class="z-2 relative flex items-center justify-between pt-10 max-lg:flex-col max-lg:items-center max-md:flex max-md:justify-center">
+        <!-- Texto e botões à esquerda -->
+                <div class="pl-30 max-md:pl-0 max-md:px-0 max-lg:pl-10 max-lg:px-30 max-md:flex max-md:flex-col max-md:items-center max-md:text-center max-md:justify-center">
+                    <h1 class="italic font-bold font-[Poppins] text-[4rem] leading-tight text-neutral-600 max-md:text-[2.8rem]">
+                    Take Over the Streets,<br class="max-md:hidden" />
+                    <span class="text-red-400 max-md:text-white">Silently<span class="text-neutral-600">.</span></span>
+                    </h1>
+                    <h2 class="text-neutral-400 text-[1.1rem] w-[480px] mt-4 max-lg:w-100 max-md:hidden max-lg:text-black">
+                    Join the revolution to make a difference for your life and the environment.
+                    </h2>
+    
+                    <!-- Botões -->
+                    <div class="flex max-lg:flex-col items-center gap-10 mt-8 max-lg:items-start max-md:items-center">
+                    <button class="bg-red-400 hover:bg-red-700 text-white py-3 px-6 rounded font-semibold text-[1.3rem] max-md:bg-white max-md:text-red-400 max-md:hover:bg-neutral-200">
+                        Book a Test Ride
+                    </button>
+                    <a href="#" class="text-red-400 font-medium text-[1.1rem] max-lg:text-black">Learn More</a>
+                    </div>
+                </div>
+    
+                <!-- Imagens das bikes -->
+                <div class="relative w-[50%] flex pr-40 justify-end max-lg:justify-center max-lg:w-[90%]">
+                    <!-- Bike principal -->
+                    <img src="./img/bike1.png" alt="Bike 1" class="z-10 w-[90%] max-lg:translate-y-16 max-lg:relative" />
+                </div>
+                <!-- Bike 2 -->
+                 <img src="./img/bike2.png" alt="Bike 2" class="z-10 h-[14rem] absolute left-[90%] max-lg:lrft-[30%] top-20 bottom-0 max-lg:hidden" />
+                <img src="img/bike2.png" alt="" class="hidden max-lg:block max-lg:absolute max-lg:h-2/6 max-lg:top-[30%] max-lg:left-[80%] max-md:hidden">
+            </div>        
+        </main>
 
-
-    <main>
-         <h1 class="grid italic text-black-500 font-bold font-[Poppins] text-6xl ">
-            Take Over the Streets,
-            <span class="text-red-400">Silently</span><span class="text-neutral-400">.</span> 
-        </h1>
-
-        <h2 class="text-neutral-400 font-medium text-2xl">
-            Join the revolution to make a difference for your life and the environment.
-        </h2>
-
-        <button class="bg-red-400 hover:bg-red-700 text-white py-2 px-4 rounded font-semibold text-2xl ">
-            Book a Test Ride
-        </button>
-
-        <p class="text-red-400 font-medium text-lg">Learn More</p>
-
-
-        <img class="  " src="./img/bike1.png" alt="Bike">
-
-        <img class="" src="./img/bike2.png" alt="Bike 2">
-
-    </main>
-
-
-
-    <footer>
-    <p class="italic text-sm font-bold text-neutral-400">BATTERY RANGE</p>
-         <p class="text-5xl font-bold text-red-400">70 Km</p>
-         <p class="italic text-sm font-bold text-neutral-800">CHARGING TIME</p>
-         <p class="text-5xl font-bold text-red-400">3.5 HOURS</p>
-         <p class="italic text-sm font-bold text-neutral-400">ASSIST SPEED</p>
-         <p class="text-5xl font-bold text-red-400">25 Kmph</p>
-         <p class="italic text-sm font-bold text-neutral-800">WEIGHT</p>
-         <p class="text-5xl font-bold text-red-400">16.9 Kg</p>
-
-    </footer>
+        <footer class="flex pl-[8%] pt-30 justify-center gap-55 max-lg:hidden">
+            <div class="flex flex-col gap-5">
+                <div class="flex flex-col gap-5">
+                        <p class="italic text-sm font-bold text-neutral-400">BATTERY RANGE</p>
+                        <p class="text-5xl font-bold text-red-400">70 Km</p>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <p class="italic text-sm font-bold text-neutral-400">ASSIST SPEED</p>
+                    <p class="text-5xl font-bold text-red-400">25 Kmph</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-5 z-1">
+                <div class="flex flex-col gap-5">
+                    <p class="italic text-sm font-bold text-neutral-600">CHARGING TIME</p>
+                    <p class="text-5xl font-bold text-white">3.5 HOURS</p>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <p class="italic text-sm font-bold text-neutral-600">WEIGHT</p>
+                    <p class="text-5xl font-bold text-white">16.9 Kg</p>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>
