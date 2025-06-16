@@ -13,22 +13,29 @@
     <title>Bike</title>
 </head>
 
-<body class="font-[Poppins]">
-    <header class="flex justify-between items-center py-7 px-18 bg-blue-500 text-2xl">
+<body class="h-screen font-[Poppins] overflow-x-hidden bg-[url('img/fundo.png')] bg-no-repeat bg-right w-screen max-lg:bg-[url('')]">
+    <img src="img/fundo.png" class="hidden max-lg:block max-lg:absolute max-lg:h-full max-lg:left-[10%] max-md:left-[3%]" alt="">
 
-        <p class=" italic text-red-400 font-semibold">Real Aj</p>
-        <div class="flex gap-10 font-medium">
-            <p class="text-neutral-800">Bikes</p>
-            <p class="text-neutral-50">About Us</p>
-            <p class="text-neutral-50">Service & Support</p>
-        </div>
 
+    <header class=" w-screen flex items-center z-1 pr-20 justify-between pl-[8rem] pt-[4.3rem] relative max-lg:justify-center max-lg:gap-50 max-md:gap-20 max-md:pl-0 max-md:pr-0">
+        <!-- Logo -->
+        <a class="text-red-500 italic font-semibold text-[1rem]" href="#">REAL AJ</a>
+        <!-- Navegação -->
+        <nav class="flex items-center justify-end">
+            <a class="text-black mr-10 text-[1rem]" href="#">Bikes</a>
+            <div class="flex items-center text-white pl-14 pr-16 py-6 clip-path-header gap-10 max-lg:pr-3">
+                <a href="#">About Us</a>
+                <a href="#">Service & Support</a>
+            </div>
+        </nav>
     </header>
-    <main>
 
-        <h1 class="grid italic text-black-500 font-bold font-[Poppins] text-6xl ">
+
+
+    <main>
+         <h1 class="grid italic text-black-500 font-bold font-[Poppins] text-6xl ">
             Take Over the Streets,
-            <span class="text-red-400">Silently</span> 
+            <span class="text-red-400">Silently</span><span class="text-neutral-400">.</span> 
         </h1>
 
         <h2 class="text-neutral-400 font-medium text-2xl">
@@ -47,8 +54,11 @@
         <img class="" src="./img/bike2.png" alt="Bike 2">
 
     </main>
+
+
+
     <footer>
-         <p class="italic text-sm font-bold text-neutral-400">BATTERY RANGE</p>
+    <p class="italic text-sm font-bold text-neutral-400">BATTERY RANGE</p>
          <p class="text-5xl font-bold text-red-400">70 Km</p>
          <p class="italic text-sm font-bold text-neutral-800">CHARGING TIME</p>
          <p class="text-5xl font-bold text-red-400">3.5 HOURS</p>
@@ -61,6 +71,12 @@
 </body>
 
 </html>
+
+
+
+
+
+
 
  <!-- onexusshorts / -->
   
