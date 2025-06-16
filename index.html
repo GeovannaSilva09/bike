@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +9,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap"
         rel="stylesheet">
-    <title>Bike</title>
+    <title>Bike</title>  
 </head>
 
-<img src="img/fundo.png" class="absolute left-[40%] right-0 h-full max-lg:h-full max-lg:left-[10%] max-md:left-[3%]"
-    alt="">
-<img src="img/fundo.png" class="hidden max-lg:block max-lg:absolute max-lg:h-full max-lg:left-[10%] max-md:left-[3%]"
-    alt="">
+<body class="h-screen font-[Poppins] overflow-x-hidden w-screen max-lg:bg-[url('')]">
+    <img src="img/fundo.png" class="absolute left-[40%] h-full max-lg:h-full max-lg:left-[10%] max-md:left-[3%]" alt="">
 
 
-<header
-    class=" w-screen flex items-center z-1 pr-20 justify-between pl-[8rem] pt-[4.3rem] relative max-lg:justify-center max-lg:gap-50 max-md:gap-20 max-md:pl-0 max-md:pr-0">
+    <header class=" w-screen flex items-center z-1 pr-20 justify-between pl-[8rem] pt-[4.3rem] relative max-lg:justify-center max-lg:gap-50 max-md:gap-20 max-md:pl-0 max-md:pr-0">
     <!-- Logo -->
     <a class="text-red-500 italic font-semibold text-[1rem]" href="#">REAL AJ</a>
     <!-- Navegação -->
     <nav class="flex items-center justify-end">
-        <a class="text-neutral-700 mr-10 text-[1rem]" href="#">Bikes</a>
-        <div class="flex items-center text-white pl-14 pr-16 py-6 clip-path-header gap-10 max-lg:pr-3">
+        <a class="text-neutral-700 text-[1rem]" href="#">Bikes</a>
+        <div class="flex items-end justify-end text-white pl-14 pr-[5px] py-6 clip-path-header gap-10 max-lg:pr-3">
             <a href="#">About Us</a>
             <a href="#">Service & Support</a>
         </div>
@@ -58,19 +54,19 @@
     </div>
 
     <!-- Imagens das bikes -->
-    <div class="relative w-[50%] flex pr-40 justify-end max-lg:justify-center max-lg:w-[90%]">
+    <div class="relative w-[100%]  flex pr-40 max-lg:pr-0 max-lg:justify-center max-lg:w-[90%]">
         <!-- Bike principal -->
-        <img src="./img/bike1.png" alt="Bike 1" class="z-10 w-[90%] max-lg:translate-y-16 max-lg:relative" />
+        <img src="./img/bike1.png" alt="Bike 1" class="z-10 w-[100%] transform scale-x-[-1]  max-lg:translate-y-16 max-lg:relative" />
     </div>
     <!-- Bike 2 -->
     <img src="./img/bike2.png" alt="Bike 2"
-        class="z-10 h-[14rem] absolute left-[90%] max-lg:lrft-[30%] top-20 bottom-0 max-lg:hidden" />
+        class="z-10 h-[14rem] absolute right-0 max-lg:lrft-[30%] top-20 bottom-0 max-lg:hidden" />
     <img src="img/bike2.png" alt=""
         class="hidden max-lg:block max-lg:absolute max-lg:h-2/6 max-lg:top-[30%] max-lg:left-[80%] max-md:hidden">
     </div>
 </main>
 
-<footer class="flex pl-[8%] pt-30 justify-center gap-55 max-lg:hidden">
+<footer class="flex pl-[15%] pt-30 justify-center gap-55 max-lg:hidden">
     <div class="flex flex-col gap-5">
         <div class="flex flex-col gap-5">
             <p class="italic text-sm font-bold text-neutral-400">BATTERY RANGE</p>
