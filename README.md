@@ -1,5 +1,5 @@
 # Landing Page com Tailwind CSS
-![](./img/print.png)
+![](./img/image.png)
 
 ## Projeto:
 

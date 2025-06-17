@@ -12,17 +12,18 @@
     <title>Bike</title>  
 </head>
 
-<body class=" font-[Poppins] overflow-x-hidden min-h-full w-screen max-lg:bg-[url('')]">
-    <img src="img/fundo.png" class="absolute left-[50%] h-screen max-lg:h-full max-lg:left-[10%] max-md:left-[0.5%]" alt="">
+<body class=" font-[Poppins] overflow-x-hidden relative min-h-screen w-screen bg-[url('img/fundo.png')] max-lg:bg-none bg-contain bg-no-repeat bg-right">
+    
+    <img src="img/fundo.png" class="hidden max-lg:absolute max-lg:block max-lg:h-[120%] max-lg:left-[15%] max-md:left-[0.5%]" alt="">
 
 
-    <header class=" w-screen  flex items-center z-1 pr-[5%] justify-between pl-[8rem] pt-[4.3rem] relative max-lg:justify-center max-lg:gap-50 max-md:gap-20 max-md:pl-0 max-md:pr-0">
+    <header class=" w-screen  flex items-center z-1 pr-[12%] max-lg:pr-[5%] justify-between pl-[8rem] pt-[4.3rem] relative max-lg:justify-center max-lg:gap-50 max-md:gap-20 max-md:pl-0 max-md:pr-0">
         <!-- Logo -->
         <a class="text-red-500 italic font-semibold text-[1rem]" href="#">REAL AJ</a>
         <!-- Navegação -->
         <nav class="flex items-center justify-end">
             <a class="text-black mr-10 text-[1rem]" href="#">Bikes</a>
-            <div class="flex items-center text-white pl-14 pr-40 py-6 clip-path-header gap-10 max-lg:pr-3">
+            <div class="flex items-center text-white pl-14 pr-10 py-6 clip-path-header gap-10 max-lg:pr-3">
                 <a href="#">About Us</a>
                 <a href="#">Service & Support</a>
             </div>
@@ -44,12 +45,12 @@
         </h2>
 
         <!-- Botões -->
-        <div class="flex max-lg:flex-col items-center gap-10 mt-8 max-lg:items-start max-md:items-center">
+        <div class="flex flex-wrap flex-auto max-lg:flex-col items-center gap-10 mt-8 max-lg:items-start max-md:items-center">
             <button
                 class="bg-red-400 hover:bg-red-700 text-white py-3 px-6 rounded font-semibold text-[1.3rem] max-md:bg-white max-md:text-red-400 max-md:hover:bg-neutral-200">
                 Book a Test Ride
             </button>
-            <a href="#" class="text-red-400 font-medium text-[1.1rem] max-lg:text-black">Learn More</a>
+            <a href="#" class="text-red-400 font-medium text-[1.1rem] underline max-md:text-black">Learn More</a>
         </div>
     </div>
 
@@ -60,13 +61,13 @@
     </div>
     <!-- Bike 2 -->
     <img src="./img/bike2.png" alt="Bike 2"
-        class="z-10 h-[14rem] absolute right-5 top-20 bottom-0 max-lg:hidden" />
+        class="z-10 h-[14rem] absolute right-[0%] top-20 bottom-0 max-lg:hidden" />
     <img src="img/bike2.png" alt=""
-        class="hidden max-lg:block max-lg:absolute max-lg:h-2/6 max-lg:top-[30%] max-lg:left-[80%] max-md:hidden">
+        class="hidden max-lg:block max-lg:absolute max-lg:h-2/6 max-lg:top-[30%] max-lg:right-[0%] max-md:hidden">
     </div>
 </main>
 
-<footer class="flex pl-[18%] pt-20 justify-center gap-55 max-lg:hidden">
+<footer class="flex pr-[25%] pt- justify-end gap-50 max-lg:hidden">
     <div class="flex flex-col gap-5">
         <div class="flex flex-col gap-5">
             <p class="italic text-sm font-bold text-neutral-400">BATTERY RANGE</p>
